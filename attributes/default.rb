@@ -28,7 +28,7 @@ default["keystone"]["admin_port"] = "35357"
 default['keystone']['user'] = "keystone"
 default['keystone']['group'] = "keystone"
 
-default["keystone"]["db_server_chef_role"] = "nova-db"
+default["keystone"]["db_server_chef_role"] = "infra-db"
 default["keystone"]["bind_interface"] = "lo"
 
 # Logging stuff
